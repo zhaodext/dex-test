@@ -1,4 +1,4 @@
 env:
-  APP_MESSAGE: Hello, There! 
+  APP_MESSAGE: Hello, I'm testing here! 
 envSecrets:
   APP_SECRET: my-secrets
