@@ -1,2 +1,4 @@
 env:
   APP_MESSAGE: Hello, MongoDB!
+envSecrets:
+  APP_SECRET: my-secrets
