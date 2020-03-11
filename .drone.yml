@@ -21,6 +21,7 @@ pipeline:
     environment:
       - API_SERVER=https://api.staging.corp.mongodb.com
     prefix: STAGING
+    values_files: ['environments/staging.yml']
     secrets: [ staging_kubernetes_token ]
     helm_repos: mongodb=https://10gen.github.io/helm-charts
     chart: mongodb/web-app
