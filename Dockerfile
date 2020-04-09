@@ -4,3 +4,7 @@ ADD . .
 RUN pip install Flask
 ENTRYPOINT ["python"]
 CMD ["app.py"]
+
+# FROM nginx
+
+# COPY index.html /usr/share/nginx/html
